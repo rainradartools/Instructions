@@ -1,0 +1,12 @@
+Parameters:
+  
+  ConfigurationBucketName:
+    Type: String
+    Description: config bucket name
+
+Resources:
+
+  ConfigurationDataBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Ref ConfigurationBucketName

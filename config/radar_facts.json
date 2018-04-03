@@ -1,0 +1,1806 @@
+{
+  "bom_cdn_url": "http://ws.cdn.bom.gov.au",
+  "radars": [
+    {
+      "id": "IDR011",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Broadmeadows",
+      "short_name": "Broadmeadows 512km",
+      "distance": 512,
+      "state": "VIC",
+      "is_composite": true,
+      "extent": {
+        "west": 139.18,
+        "east": 150.41,
+        "north": -33.6,
+        "south": -42.17
+      }
+    },
+    {
+      "id": "IDR012",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Broadmeadows",
+      "short_name": "Broadmeadows 256km",
+      "distance": 256,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 142.03,
+        "east": 148.48,
+        "north": -35.24,
+        "south": -39.59
+      }
+    },
+    {
+      "id": "IDR013",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Broadmeadows",
+      "short_name": "Broadmeadows 128km",
+      "distance": 128,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 143.31,
+        "east": 146.23,
+        "north": -36.33,
+        "south": -38.50
+      }
+    },
+    {
+      "id": "IDR014",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Broadmeadows",
+      "short_name": "Broadmeadows 64km",
+      "distance": 64,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 144.14,
+        "east": 145.40,
+        "north": -37.08,
+        "south": -38.15
+      }
+    },
+    {
+      "id": "IDR021",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Melbourne",
+      "short_name": "Melbourne 512km",
+      "distance": 512,
+      "state": "VIC",
+      "is_composite": true,
+      "extent": {
+        "west": 138.58,
+        "east": 150.40,
+        "north": -33.16,
+        "south": -42.26
+      }
+    },
+    {
+      "id": "IDR022",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Melbourne",
+      "short_name": "Melbourne 256km",
+      "distance": 256,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 141.53,
+        "east": 147.40,
+        "north": -35.34,
+        "south": -40.8
+      }
+    },
+    {
+      "id": "IDR023",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Melbourne",
+      "short_name": "Melbourne 128km",
+      "distance": 128,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 143.19,
+        "east": 146.11,
+        "north": -36.43,
+        "south": -38.59
+      }
+    },
+    {
+      "id": "IDR024",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Melbourne",
+      "short_name": "Melbourne 64km",
+      "distance": 64,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 144.02,
+        "east": 145.28,
+        "north": -37.17,
+        "south": -38.25
+      }
+    },
+    {
+      "id": "IDR031",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Wollongong (Appin)",
+      "short_name": "Wollongong 512km",
+      "distance": 512,
+      "state": "NSW",
+      "is_composite": true,
+      "extent": {
+        "west": 145.23,
+        "east": 156.32,
+        "north": -29.40,
+        "south": -38.51
+      }
+    },
+    {
+      "id": "IDR032",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Wollongong (Appin)",
+      "short_name": "Wollongong 256km",
+      "distance": 256,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 148.7,
+        "east": 153.40,
+        "north": -31.59,
+        "south": -36.33
+      }
+    },
+    {
+      "id": "IDR033",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Wollongong (Appin)",
+      "short_name": "Wollongong 128km",
+      "distance": 128,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 149.30,
+        "east": 152.15,
+        "north": -33.8,
+        "south": -35.24
+      }
+    },
+    {
+      "id": "IDR034",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Wollongong (Appin)",
+      "short_name": "Wollongong 64km",
+      "distance": 64,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 150.11,
+        "east": 151.34,
+        "north": -33.42,
+        "south": -34.50
+      }
+    },
+    {
+      "id": "IDR041",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newcastle",
+      "short_name": "Newcastle 512km",
+      "distance": 512,
+      "state": "NSW",
+      "is_composite": true,
+      "extent": {
+        "west": 146.37,
+        "east": 157.37,
+        "north": -28.08,
+        "south": -37.19
+      }
+    },
+    {
+      "id": "IDR042",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newcastle",
+      "short_name": "Newcastle 256km",
+      "distance": 256,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 149.19,
+        "east": 154.46,
+        "north": -30.27,
+        "south": -35.01
+      }
+    },
+    {
+      "id": "IDR043",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newcastle",
+      "short_name": "Newcastle 128km",
+      "distance": 128,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 150.40,
+        "east": 153.23,
+        "north": -31.35,
+        "south": -33.52
+      }
+    },
+    {
+      "id": "IDR044",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newcastle",
+      "short_name": "Newcastle 64km",
+      "distance": 64,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 151.21,
+        "east": 152.42,
+        "north": -32.10,
+        "south": -33.18
+      }
+    },
+    {
+      "id": "IDR191",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Cairns",
+      "short_name": "Cairns 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 140.55,
+        "east": 150.31,
+        "north": -12.14,
+        "south": -21.23
+      }
+    },
+    {
+      "id": "IDR192",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Cairns",
+      "short_name": "Cairns 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 143.17,
+        "east": 148.04,
+        "north": -14.32,
+        "south": -19.06
+      }
+    },
+    {
+      "id": "IDR193",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Cairns",
+      "short_name": "Cairns 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 144.29,
+        "east": 146.52,
+        "north": -15.41,
+        "south": -17.58
+      }
+    },
+    {
+      "id": "IDR194",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Cairns",
+      "short_name": "Cairns 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 145.05,
+        "east": 146.16,
+        "north": -16.15,
+        "south": -17.23
+      }
+    },
+    {
+      "id": "IDR381",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newdegate",
+      "short_name": "Newdegate 512km",
+      "distance": 512,
+      "state": "WA",
+      "is_composite": true,
+      "extent": {
+        "west": 113.34,
+        "east": 124.32,
+        "north": -28.31,
+        "south": -37.41
+      }
+    },
+    {
+      "id": "IDR382",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newdegate",
+      "short_name": "Newdegate 256km",
+      "distance": 256,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 116.17,
+        "east": 121.46,
+        "north": -30.49,
+        "south": -35.23
+      }
+    },
+    {
+      "id": "IDR383",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newdegate",
+      "short_name": "Newdegate 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 117.40,
+        "east": 120.23,
+        "north": -31.58,
+        "south": -34.14
+      }
+    },
+    {
+      "id": "IDR384",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Newdegate",
+      "short_name": "Newdegate 64km",
+      "distance": 64,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 118.20,
+        "east": 119.41,
+        "north": -32.32,
+        "south": -33.40
+      }
+    },
+    {
+      "id": "IDR401",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Canberra (Captains Flat)",
+      "short_name": "Canberra 512km",
+      "distance": "512",
+      "state": "ACT",
+      "is_composite": true,
+      "extent": {
+        "west": 143.59,
+        "east": 155.8,
+        "north": -31.04,
+        "south": -40.15
+      }
+    },
+    {
+      "id": "IDR402",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Canberra (Captains Flat)",
+      "short_name": "Canberra 256km",
+      "distance": "256",
+      "state": "ACT",
+      "is_composite": false,
+      "extent": {
+        "west": 146.43,
+        "east": 152.19,
+        "north": -33.23,
+        "south": -37.57
+      }
+    },
+    {
+      "id": "IDR403",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Canberra (Captains Flat)",
+      "short_name": "Canberra 128km",
+      "distance": "128",
+      "state": "ACT",
+      "is_composite": false,
+      "extent": {
+        "west": 148.07,
+        "east": 150.55,
+        "north": -34.31,
+        "south": -36.48
+      }
+    },
+    {
+      "id": "IDR404",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Canberra (Captains Flat)",
+      "short_name": "Canberra 64km",
+      "distance": "64",
+      "state": "ACT",
+      "is_composite": false,
+      "extent": {
+        "west": 148.49,
+        "east": 150.13,
+        "north": -35.06,
+        "south": -36.14
+      }
+    },
+    {
+      "id": "IDR081",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Gympie (Mt Kanigan)",
+      "short_name": "Gympie 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 147.28,
+        "east": 157.46,
+        "north": -21.22,
+        "south": -30.33
+      }
+    },
+    {
+      "id": "IDR082",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Gympie (Mt Kanigan)",
+      "short_name": "Gympie 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 150.02,
+        "east": 155.07,
+        "north": -23.41,
+        "south": -28.14
+      }
+    },
+    {
+      "id": "IDR083",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Gympie (Mt Kanigan)",
+      "short_name": "Gympie 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 151.19,
+        "east": 153.51,
+        "north": -24.29,
+        "south": -27.06
+      }
+    },
+    {
+      "id": "IDR084",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Gympie (Mt Kanigan)",
+      "short_name": "Gympie 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 151.57,
+        "east": 153.13,
+        "north": -25.23,
+        "south": -26.31
+      }
+    },
+    {
+      "id": "IDR481",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Kalgoorlie",
+      "short_name": "Kalgoorlie 512km",
+      "distance": 512,
+      "state": "WA",
+      "is_composite": true,
+      "extent": {
+        "west": 116.08,
+        "east": 126.02,
+        "north": -26.11,
+        "south": -35.23
+      }
+    },
+    {
+      "id": "IDR482",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Kalgoorlie",
+      "short_name": "Kalgoorlie 256km",
+      "distance": 256,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 118.48,
+        "east": 124.08,
+        "north": -28.30,
+        "south": -33.04
+      }
+    },
+    {
+      "id": "IDR483",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Kalgoorlie",
+      "short_name": "Kalgoorlie 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 120.08,
+        "east": 122.47,
+        "north": -29.39,
+        "south": -31.55
+      }
+    },
+    {
+      "id": "IDR484",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Kalgoorlie",
+      "short_name": "Kalgoorlie 64km",
+      "distance": 64,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 120.47,
+        "east": 122.07,
+        "north": -30.13,
+        "south": -31.21
+      }
+    },
+    {
+      "id": "IDR491",
+      "resolution_mins": 10,
+      "add_offset_mins": 7,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Yarrawonga",
+      "short_name": "Yarrawonga 512km",
+      "distance": 512,
+      "state": "VIC",
+      "is_composite": true,
+      "extent": {
+        "west": 140.19,
+        "east": 151.47,
+        "north": -31.26,
+        "south": -40.37
+      }
+    },
+    {
+      "id": "IDR492",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Yarrawonga",
+      "short_name": "Yarrawonga 256km",
+      "distance": 256,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 143.13,
+        "east": 148.52,
+        "north": -33.44,
+        "south": -38.19
+      }
+    },
+    {
+      "id": "IDR493",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Yarrawonga",
+      "short_name": "Yarrawonga 128km",
+      "distance": 128,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 144.37,
+        "east": 147.26,
+        "north": -34.53,
+        "south": -37.10
+      }
+    },
+    {
+      "id": "IDR494",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Yarrawonga",
+      "short_name": "Yarrawonga 64km",
+      "distance": 64,
+      "state": "VIC",
+      "is_composite": false,
+      "extent": {
+        "west": 145.20,
+        "east": 146.43,
+        "north": -35.28,
+        "south": -36.35
+      }
+    },
+    {
+      "id": "IDR521",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "N.W. Tasmania (West Takone)",
+      "short_name": "N.W. Tasmania 512km",
+      "distance": 512,
+      "state": "TAS",
+      "is_composite": true,
+      "extent": {
+        "west": 139.29,
+        "east": 151.43,
+        "north": -36.35,
+        "south": -45.45
+      }
+    },
+    {
+      "id": "IDR522",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "N.W. Tasmania (West Takone)",
+      "short_name": "N.W. Tasmania 256km",
+      "distance": 256,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 142.37,
+        "east": 148.38,
+        "north": -38.53,
+        "south": -43.28
+      }
+    },
+    {
+      "id": "IDR523",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "N.W. Tasmania (West Takone)",
+      "short_name": "N.W. Tasmania 128km",
+      "distance": 128,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 144.4,
+        "east": 147.6,
+        "north": -40.2,
+        "south": -42.19
+      }
+    },
+    {
+      "id": "IDR524",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "N.W. Tasmania (West Takone)",
+      "short_name": "N.W. Tasmania 64km",
+      "distance": 64,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 144.50,
+        "east": 146.20,
+        "north": -40.37,
+        "south": -41.45
+      }
+    },
+    {
+      "id": "IDR581",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "South Doodlakine",
+      "short_name": "South Doodlakine 512km",
+      "distance": 512,
+      "state": "WA",
+      "is_composite": true,
+      "extent": {
+        "west": 112.38,
+        "east": 123.22,
+        "north": -27.11,
+        "south": -36.22
+      }
+    },
+    {
+      "id": "IDR582",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "South Doodlakine",
+      "short_name": "South Doodlakine 256km",
+      "distance": 256,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 115.16,
+        "east": 120.40,
+        "north": -29.29,
+        "south": -34.04
+      }
+    },
+    {
+      "id": "IDR583",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "South Doodlakine",
+      "short_name": "South Doodlakine 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 116.37,
+        "east": 119.18,
+        "north": -30.38,
+        "south": -32.55
+      }
+    },
+    {
+      "id": "IDR584",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "South Doodlakine",
+      "short_name": "South Doodlakine 64km",
+      "distance": 64,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 117.17,
+        "east": 118.37,
+        "north": -31.13,
+        "south": -32.20
+      }
+    },
+    {
+      "id": "IDR631",
+      "resolution_mins": 10,
+      "add_offset_mins": 7,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Darwin (Berrimah)",
+      "short_name": "Darwin 512km",
+      "distance": 512,
+      "state": "NT",
+      "is_composite": true,
+      "extent": {
+        "west": 126.14,
+        "east": 135.39,
+        "north": -7.52,
+        "south": -17.30
+      }
+    },
+    {
+      "id": "IDR632",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Darwin (Berrimah)",
+      "short_name": "Darwin 256km",
+      "distance": 256,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 128.35,
+        "east": 133.16,
+        "north": -10.10,
+        "south": -14.44
+      }
+    },
+    {
+      "id": "IDR633",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Darwin (Berrimah)",
+      "short_name": "Darwin 128km",
+      "distance": 128,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 129.46,
+        "east": 132.05,
+        "north": -11.19,
+        "south": -13.36
+      }
+    },
+    {
+      "id": "IDR634",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Darwin (Berrimah)",
+      "short_name": "Darwin 64km",
+      "distance": 64,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 130.21,
+        "east": 131.30,
+        "north": -11.53,
+        "south": -13.01
+      }
+    },
+    {
+      "id": "IDR661",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Brisbane (Mt Stapylton)",
+      "short_name": "Brisbane 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 148.4,
+        "east": 158.26,
+        "north": -23.8,
+        "south": -32.19
+      }
+    },
+    {
+      "id": "IDR662",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Brisbane (Mt Stapylton)",
+      "short_name": "Brisbane 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 0.0,
+        "east": 0.0,
+        "north": -0.0,
+        "south": -0.0
+      }
+    },
+    {
+      "id": "IDR663",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Brisbane (Mt Stapylton)",
+      "short_name": "Brisbane 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 0.0,
+        "east": 0.0,
+        "north": -0.0,
+        "south": -0.0
+      }
+    },
+    {
+      "id": "IDR664",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Brisbane (Mt Stapylton)",
+      "short_name": "Brisbane 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 0.0,
+        "east": 0.0,
+        "north": -0.0,
+        "south": -0.0
+      }
+    },
+    {
+      "id": "IDR681",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Adelaide (Buckland Park)",
+      "short_name": "Adelaide 512km",
+      "distance": 512,
+      "state": "SA",
+      "is_composite": true,
+      "extent": {
+        "west": 132.52,
+        "east": 144.07,
+        "north": -30.02,
+        "south": -39.13
+      }
+    },
+    {
+      "id": "IDR682",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Adelaide (Buckland Park)",
+      "short_name": "Adelaide 256km",
+      "distance": 256,
+      "state": "SA",
+      "is_composite": false,
+      "extent": {
+        "west": 34.18,
+        "east": 34.57,
+        "north": -32.20,
+        "south": -36.54
+      }
+    },
+    {
+      "id": "IDR683",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Adelaide (Buckland Park)",
+      "short_name": "Adelaide 128km",
+      "distance": 128,
+      "state": "SA",
+      "is_composite": false,
+      "extent": {
+        "west": 137.05,
+        "east": 139.52,
+        "north": -33.29,
+        "south": -35.46
+      }
+    },
+    {
+      "id": "IDR684",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Adelaide (Buckland Park)",
+      "short_name": "Adelaide 64km",
+      "distance": 64,
+      "state": "SA",
+      "is_composite": false,
+      "extent": {
+        "west": 137.47,
+        "east": 139.10,
+        "north": -34.03,
+        "south": -35.11
+      }
+    },
+    {
+      "id": "IDR691",
+      "resolution_mins": 10,
+      "add_offset_mins": 7,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Namoi (Blackjack Mountain)",
+      "short_name": "Namoi 512km",
+      "distance": 512,
+      "state": "NSW",
+      "is_composite": true,
+      "extent": {
+        "west": 144.47,
+        "east": 155.40,
+        "north": -26.26,
+        "south": -35.37
+      }
+    },
+    {
+      "id": "IDR692",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Namoi (Blackjack Mountain)",
+      "short_name": "Namoi 256km",
+      "distance": 256,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 147.31,
+        "east": 152.54,
+        "north": -28.44,
+        "south": -33.19
+      }
+    },
+    {
+      "id": "IDR693",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Namoi (Blackjack Mountain)",
+      "short_name": "Namoi 128km",
+      "distance": 128,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 148.52,
+        "east": 151.32,
+        "north": -29.53,
+        "south": -32.10
+      }
+    },
+    {
+      "id": "IDR694",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Namoi (Blackjack Mountain)",
+      "short_name": "Namoi 64km",
+      "distance": 64,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 149.32,
+        "east": 150.51,
+        "north": -30.28,
+        "south": -31.35
+      }
+    },
+    {
+      "id": "IDR701",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Perth (Serpentine)",
+      "short_name": "Perth 512km",
+      "distance": 512,
+      "state": "WA",
+      "is_composite": true,
+      "extent": {
+        "west": 110.27,
+        "east": 121.23,
+        "north": -27.48,
+        "south": -36.59
+      }
+    },
+    {
+      "id": "IDR702",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Perth (Serpentine)",
+      "short_name": "Perth 256km",
+      "distance": 256,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 113.10,
+        "east": 118.35,
+        "north": -30.07,
+        "south": -34.41
+      }
+    },
+    {
+      "id": "IDR703",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Perth (Serpentine)",
+      "short_name": "Perth 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 114.31,
+        "east": 117.13,
+        "north": -31.15,
+        "south": -33.32
+      }
+    },
+    {
+      "id": "IDR704",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Perth (Serpentine)",
+      "short_name": "Perth 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 115.12,
+        "east": 116.32,
+        "north": -31.50,
+        "south": -32.58
+      }
+    },
+    {
+      "id": "IDR711",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Sydney (Terrey Hills)",
+      "short_name": "Sydney 512km",
+      "distance": 512,
+      "state": "NSW",
+      "is_composite": true,
+      "extent": {
+        "west": 145.43,
+        "east": 156.51,
+        "north": -29.7,
+        "south": -38.17
+      }
+    },
+    {
+      "id": "IDR712",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Sydney (Terrey Hills)",
+      "short_name": "Sydney 256km",
+      "distance": 256,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 0.00,
+        "east": 0.00,
+        "north": -0.00,
+        "south": -0.00
+      }
+    },
+    {
+      "id": "IDR713",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Sydney (Terrey Hills)",
+      "short_name": "Sydney 128km",
+      "distance": 128,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 149.52,
+        "east": 152.34,
+        "north": -32.34,
+        "south": -34.50
+      }
+    },
+    {
+      "id": "IDR714",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Sydney (Terrey Hills)",
+      "short_name": "Sydney 64km",
+      "distance": 64,
+      "state": "NSW",
+      "is_composite": false,
+      "extent": {
+        "west": 0.00,
+        "east": 0.00,
+        "north": -0.00,
+        "south": -0.00
+      }
+    },
+    {
+      "id": "IDR721",
+      "resolution_mins": 10,
+      "add_offset_mins": 7,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Emerald",
+      "short_name": "Emerald 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 143.14,
+        "east": 153.17,
+        "north": -18.58,
+        "south": -28.08
+      }
+    },
+    {
+      "id": "IDR722",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Emerald",
+      "short_name": "Emerald 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 145.46,
+        "east": 150.44,
+        "north": -21.16,
+        "south": -25.50
+      }
+    },
+    {
+      "id": "IDR723",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Emerald",
+      "short_name": "Emerald 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 147.00,
+        "east": 149.29,
+        "north": -22.25,
+        "south": -24.41
+      }
+    },
+    {
+      "id": "IDR724",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Emerald",
+      "short_name": "Emerald 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 147.37,
+        "east": 148.52,
+        "north": -22.59,
+        "south": -24.07
+      }
+    },
+    {
+      "id": "IDR731",
+      "resolution_mins": 10,
+      "add_offset_mins": 7,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Townsville (Hervey Range)",
+      "short_name": "Townsville 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 141.42,
+        "east": 151.26,
+        "north": -14.50,
+        "south": -24.01
+      }
+    },
+    {
+      "id": "IDR732",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Townsville (Hervey Range)",
+      "short_name": "Townsville 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 144.08,
+        "east": 148.59,
+        "north": -17.09,
+        "south": -21.42
+      }
+    },
+    {
+      "id": "IDR733",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Townsville (Hervey Range)",
+      "short_name": "Townsville 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 145.21,
+        "east": 147.46,
+        "north": -18.17,
+        "south": -20.34
+      }
+    },
+    {
+      "id": "IDR734",
+      "resolution_mins": 10,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Townsville (Hervey Range)",
+      "short_name": "Townsville 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 145.57,
+        "east": 147.09,
+        "north": -18.51,
+        "south": -19.59
+      }
+    },
+    {
+      "id": "IDR751",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Mount Isa",
+      "short_name": "Mount Isa 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 134.40,
+        "east": 144.30,
+        "north": -16.07,
+        "south": -25.18
+      }
+    },
+    {
+      "id": "IDR752",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Mount Isa",
+      "short_name": "Mount Isa 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 137.09,
+        "east": 142.01,
+        "north": -18.25,
+        "south": -23.0
+      }
+    },
+    {
+      "id": "IDR753",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Mount Isa",
+      "short_name": "Mount Isa 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 138.20,
+        "east": 140.46,
+        "north": -19.34,
+        "south": -21.51
+      }
+    },
+    {
+      "id": "IDR754",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Mount Isa",
+      "short_name": "Mount Isa 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 138.57,
+        "east": 140.10,
+        "north": -20.09,
+        "south": -21.17
+      }
+    },
+    {
+      "id": "IDR761",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Hobart (Mt Koonya)",
+      "short_name": "Hobart 512km",
+      "distance": 512,
+      "state": "TAS",
+      "is_composite": true,
+      "extent": {
+        "west": 141.32,
+        "east": 154.11,
+        "north": -38.31,
+        "south": -47.42
+      }
+    },
+    {
+      "id": "IDR762",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Hobart (Mt Koonya)",
+      "short_name": "Hobart 256km",
+      "distance": 256,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 146.16,
+        "east": 150.55,
+        "north": -41.58,
+        "south": -45.24
+      }
+    },
+    {
+      "id": "IDR763",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Hobart (Mt Koonya)",
+      "short_name": "Hobart 128km",
+      "distance": 128,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 146.16,
+        "east": 149.22,
+        "north": -41.58,
+        "south": -44.15
+      }
+    },
+    {
+      "id": "IDR764",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Hobart (Mt Koonya)",
+      "short_name": "Hobart 64km",
+      "distance": 64,
+      "state": "TAS",
+      "is_composite": false,
+      "extent": {
+        "west": 147.02,
+        "east": 148.35,
+        "north": -42.33,
+        "south": -43.41
+      }
+    },
+    {
+      "id": "IDR771",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Warruwi",
+      "short_name": "Warruwi 512km",
+      "distance": 512,
+      "state": "NT",
+      "is_composite": true,
+      "extent": {
+        "west": 128.43,
+        "east": 138.05,
+        "north": -7.04,
+        "south": -16.14
+      }
+    },
+    {
+      "id": "IDR772",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Warruwi",
+      "short_name": "Warruwi 256km",
+      "distance": 256,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 131.03,
+        "east": 135.43,
+        "north": -9.22,
+        "south": -13.56
+      }
+    },
+    {
+      "id": "IDR773",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Warruwi",
+      "short_name": "Warruwi 128km",
+      "distance": 128,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 132.13,
+        "east": 134.32,
+        "north": -10.31,
+        "south": -12.47
+      }
+    },
+    {
+      "id": "IDR774",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Warruwi",
+      "short_name": "Warruwi 64km",
+      "distance": 64,
+      "state": "NT",
+      "is_composite": false,
+      "extent": {
+        "west": 132.49,
+        "east": 133.58,
+        "north": -11.05,
+        "south": -12.14
+      }
+    },
+    {
+      "id": "IDR781",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Weipa",
+      "short_name": "Weipa 512km",
+      "distance": 512,
+      "state": "QLD",
+      "is_composite": true,
+      "extent": {
+        "west": 137.13,
+        "east": 146.40,
+        "north": -8.05,
+        "south": -17.15
+      }
+    },
+    {
+      "id": "IDR782",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Weipa",
+      "short_name": "Weipa 256km",
+      "distance": 256,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 139.35,
+        "east": 144.17,
+        "north": -10.23,
+        "south": -14.57
+      }
+    },
+    {
+      "id": "IDR783",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Weipa",
+      "short_name": "Weipa 128km",
+      "distance": 128,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 140.46,
+        "east": 143.05,
+        "north": -11.32,
+        "south": -13.48
+      }
+    },
+    {
+      "id": "IDR784",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Weipa",
+      "short_name": "Weipa 64km",
+      "distance": 64,
+      "state": "QLD",
+      "is_composite": false,
+      "extent": {
+        "west": 141.21,
+        "east": 142.30,
+        "north": -12.06,
+        "south": -13.14
+      }
+    },
+    {
+      "id": "IDR791",
+      "resolution_mins": 6,
+      "add_offset_mins": 5,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Watheroo",
+      "short_name": "Watheroo 512km",
+      "distance": 512,
+      "state": "WA",
+      "is_composite": true,
+      "extent": {
+        "west": 110.56,
+        "east": 121.38,
+        "north": -25.47,
+        "south": -34.57
+      }
+    },
+    {
+      "id": "IDR792",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Watheroo",
+      "short_name": "Watheroo 256km",
+      "distance": 256,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 113.38,
+        "east": 118.58,
+        "north": -28.04,
+        "south": -32.39
+      }
+    },
+    {
+      "id": "IDR793",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Watheroo",
+      "short_name": "Watheroo 128km",
+      "distance": 128,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 114.58,
+        "east": 117.37,
+        "north": -29.13,
+        "south": -31.30
+      }
+    },
+    {
+      "id": "IDR794",
+      "resolution_mins": 6,
+      "add_offset_mins": 0,
+      "cdn_wait_mins": 3,
+      "max_attempts": 5,
+      "name": "Watheroo",
+      "short_name": "Watheroo 64km",
+      "distance": 64,
+      "state": "WA",
+      "is_composite": false,
+      "extent": {
+        "west": 115.38,
+        "east": 116.56,
+        "north": -29.48,
+        "south": -30.55
+      }
+    }
+  ],
+  "raw_radar_image_size": "512x512"
+}

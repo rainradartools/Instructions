@@ -1,0 +1,48 @@
+
+Parameters:
+  
+  RainDataBucketName:
+    Type: String
+    Description: rain data bucket name
+
+Resources:
+
+  RainDataBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Ref RainDataBucketName
+      WebsiteConfiguration:
+        IndexDocument: index.html
+      CorsConfiguration:
+        CorsRules:
+          -
+            AllowedMethods: [GET, HEAD]
+            AllowedOrigins: ['*']
+            AllowedHeaders: ['*']
+
+
+  RainDataBucketPolicy:
+    Type: "AWS::S3::BucketPolicy"
+    Properties:
+      Bucket: !Ref RainDataBucket
+      PolicyDocument:
+        Statement:
+          -
+            Action:
+              - s3:GetObject
+            Effect: "Allow"
+            Resource:
+              !Join [ "", [ "arn:aws:s3:::", !Ref RainDataBucket, "/*"  ] ]
+            Principal: "*"
+          -
+            Action:
+              - s3:ListBucket
+            Effect: "Allow"
+            Resource:
+              !Join [ "", [ "arn:aws:s3:::", !Ref RainDataBucket  ] ]
+            Principal: "*"
+
+Outputs:
+  WebsiteURL:
+    Value: !GetAtt [RainDataBucket, WebsiteURL]
+    Description: data bucket public URL
