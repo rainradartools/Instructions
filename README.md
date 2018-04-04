@@ -34,9 +34,9 @@ aws s3 cp --recursive ./config s3://rain-configuration-<yourname>
 Create a new Cloudformation stack using the `cloudformation/data-bucket.yml` template
 
 ###### Parameters:
-RainDataBucketName: the name for the S3 bucket These instructions will assume the name is something like `rain-data-<yourname>`
+RainDataBucketName: the name for the S3 bucket. These instructions will assume the name is something like `rain-data-<yourname>`
 
-###### Upload S3-explorer
+#### 3. Upload S3-explorer
 
 This is optional (but very useful)... upload [AWS Lab's javascript S3 Explorer](https://github.com/awslabs/aws-js-s3-explorer) so that you can easily browse the radar image data you've collected. 
 
@@ -47,17 +47,17 @@ aws s3 cp index.html s3://rain-data-<yourname>/
 
 You should now be able to browse the bucket content using the url listed in the CloudFormation outputs.
 
-##### Upload layers
+#### 4. Upload layers
 
-For each radar id listed in the enabled_radar_ids.json configuration file, this script uploads static rain radar background images to the rain-data-bucket
+This script uploads static rain radar background images to the rain-data-bucket for each radar id listed in the `enabled_radar_ids.json` configuration file
 
 ```
 ./scripts/upload_static_layers.sh config/enabled_radar_ids.json rain-data-<yourname>
 ```
 
-You should now be able to browse these layers in your s3 data bucket website.
+You should now be able to browse these static layers in your s3 data bucket website.
 
-#### 3. Deploy rain-collector stack
+#### 5. Deploy rain-collector stack
 See rain-collector stack for deployment instructions
 
 
